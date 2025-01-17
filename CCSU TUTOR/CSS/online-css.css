@@ -1128,7 +1128,7 @@ h1 {
       position: absolute;
       top: 30%;
       /* height: 100v; */
-      margin-right: 1px;
+      margin-right: 5px;
       right: 0;
       width: 74%;
       text-align: left;
@@ -1152,7 +1152,7 @@ h1 {
     font-family: "Poppins", sans-serif;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 12px;
+    font-size: 13px;
     text-decoration:dashed;
     /* text-decoration: bold; */
     /* background-color: transparent; */
@@ -1215,7 +1215,7 @@ margin-bottom: 10px;
   }
 
   .heading {
-    font-size: 1.2em;
+    font-size: 20px;
     font-weight: 600;
     color: #000000;
     margin-bottom: 20px;
@@ -1224,8 +1224,9 @@ margin-bottom: 10px;
 
   .description {
     font-size: 0.7em;
-    line-height: 1.8;
+    line-height: 1.5;
     margin: 10px 0;
+    font-family: "Poppins", sans-serif;
     color: #555;
   }
 
@@ -1319,7 +1320,7 @@ margin-bottom: 10px;
 
   #subjectTable {
     text-align: center;
-    font-size: 7px;
+    font-size: 8px;
     font-family: "Poppins", sans-serif;
   }
   .note-text {
