@@ -109,7 +109,7 @@
       }
       
       .logo img {
-        width: 200px;
+        width: 185px;
       }
       
       .e {
@@ -651,7 +651,7 @@ font-optical-sizing: auto;
 
   /*----------------------------Tablet responsive end -------------------------------  */
 
-@media (min-width: 400px) and (max-width: 619px) {
+@media (min-width: 481px) and (max-width: 619px) {
   .nav-links {
     display: none;
     color: black;

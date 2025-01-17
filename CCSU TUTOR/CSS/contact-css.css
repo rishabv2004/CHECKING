@@ -32,7 +32,7 @@ body {
 }
 
 .logo img {
-  width: 200px;
+  width: 185px;
 }
 
 .e {
@@ -595,7 +595,7 @@ h5.name {
   }
 }
  /* -------------------------media query 480px to 618px ------- -------------------------------- */
- @media (min-width: 400px) and (max-width: 619px) {
+ @media (min-width: 481px) and (max-width: 619px) {
   .nav-links {
     display: none;
     color: black;
