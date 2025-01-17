@@ -15,13 +15,19 @@
       <img src="asset/IMG_20241214_210243-removebg-preview.png" alt="ccsu_tutor logo">
       <!-- <div class="e"> CCS CHAMPS </div> -->
     </div>
-    <ul class="nav-links">
-      <li><a href="home-html.html">Home</a></li>
-      <li><a href="online-html.html">Online Classes</a></li>
-      <li><a href="notes-html.html">Notes</a></li>
-      <li><a href="p.y-html.html">Previous Year Question Papers</a></li>
-      <li><a href="contact-html.html">Contact Us</a></li>
-      <button class="join-tutor-btn"><a
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+  </div></div>
+  <ul class="nav-links"id="nav-links">
+      <li><a href="home-html.html">🏠Home</a></li>
+      <li><a href="online-html.html">👨🏼‍🏫Online Classes</a></li>
+      <li><a href="notes-html.html">📝Notes</a></li>
+      <li><a href="p.y-html.html">📜Previous Year Question Papers</a></li>
+
+      <li><a href="contact-html.html">☎️Contact Us</a></li>
+      <button class="join-tutor-btn" align="center"><a
           href="https://docs.google.com/forms/d/e/1FAIpQLSfeAxV_dH9uToKz_h9bMvT0bYxnV5OHRUmoh02oVuBrbeSocg/viewform?usp=dialog" target="_blank">Join
           as a Tutor</a></button>
 
@@ -40,7 +46,7 @@
 
   <!-- ----------------------------------------------------------------------------------------------- -->
   <!-- online start -->
-  <div class="online-classes-container" align="center">
+  <div class="online-classes-container" >
     <h1 class="heading">CCSU Tutor Online Classes 🧑🏼‍🏫</h1>
     <p class="description">
       CCSU Tutor - Online classes are a modern form of education that uses digital technology to deliver learning
@@ -105,7 +111,7 @@
   <div class="hh">
     <h1> Online Classes - Offered Courses & fees</h1>
   </div><br>
-  <input type="text" id="searchInput" placeholder="Search for a subject..." onkeyup="filterSubjects()">
+  <input type="text" id="searchInput" placeholder="Search subjects..." onkeyup="filterSubjects()">
   <table id="subjectTable">
     <thead>
       <tr>
@@ -281,7 +287,7 @@
       <p class="footer-copy">© 2025 CCSU Tutor. All rights reserved.</p>
     </div>
   </footer>
-
+<script src="Script/responsive-home.js"></script>
   <!-- ---------footer end here--------- -->
 
 

@@ -179,7 +179,7 @@ width: 100%;
 }
 
 .nav-links a {
-  
+  font-family: "Poppins", sans-serif;
   color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 8px 12px;
@@ -199,7 +199,7 @@ width: 100%;
 .join-tutor-btn {
 
 width: 145px;
-
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 color: rgb(255, 255, 255); /* Text color */
 border: 2px solid black;
 text-align: center; /* Center align text */
